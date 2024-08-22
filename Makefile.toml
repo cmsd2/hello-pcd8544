@@ -1,0 +1,5 @@
+[tasks.test]
+clear = true
+script = '''
+echo "Skipping tests on embedded module"
+'''
