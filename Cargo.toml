@@ -17,7 +17,7 @@ esp-backtrace = { version = "0.13.0", features = [
 esp-hal = { version = "0.19.0", features = [ "esp32h2" ] }
 esp-println = { version = "0.10.0", features = ["esp32h2", "log", "defmt-espflash"] }
 log = { version = "0.4.21" }
-pcd8544-spi = { path = "../pcd8544-spi", features = ["graphics"] }
+pcd8544-spi = { git = "https://github.com/cmsd2/pcd8544-spi", features = ["graphics"] }
 [profile.dev]
 # Rust debug is too slow.
 # For debug builds always builds with some optimization

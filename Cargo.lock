@@ -555,6 +555,7 @@ checksum = "57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a"
 [[package]]
 name = "pcd8544-spi"
 version = "0.1.0"
+source = "git+https://github.com/cmsd2/pcd8544-spi#c72a6cbda474c82b30463cf8bc2c5adb7e632b62"
 dependencies = [
  "bitfield-struct",
  "embedded-graphics",
